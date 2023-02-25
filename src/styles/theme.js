@@ -3,7 +3,8 @@ import {
     fontSize,
     fontWeight,
     lineWeight,
-    shadow
+    shadow,
+    spacing
 } from "./tokens"
 
 const theme = {
@@ -11,7 +12,8 @@ const theme = {
     fontSize,
     fontWeight,
     lineWeight,
-    shadow
+    shadow,
+    spacing
 }
 
 export default theme;
