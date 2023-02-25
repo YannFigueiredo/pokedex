@@ -1,0 +1,16 @@
+@mixin color($text-color, $background-color) {
+    color: $text-color;
+    background: $background-color;
+}
+
+@mixin flex($direction, $horizontal-align, $vertical-align) {
+    display: flex;
+    flex-direction: $direction;
+    @if $direction == 'column' {
+        justify-content: $vertical-align;
+        align-items: $horizontal-align;
+    } @else {
+        justify-content: $horizontal-align;
+        align-items: $vertical-align;
+    }
+}
