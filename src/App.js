@@ -1,6 +1,8 @@
+import { RoutesMap } from "./routes";
+
 function App() {
   return (
-    <>teste</>
+    <RoutesMap />
   );
 }
 
