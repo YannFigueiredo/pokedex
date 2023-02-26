@@ -1,6 +1,24 @@
 @use "../../styles/mixins";
 @use "../../styles/tokens/colors";
+@use "../../styles/tokens/spacing";
+@use "../../styles/tokens/fontSize";
+@use "../../styles/tokens/fontWeight";
+@use "../../styles/tokens/lineHeight";
 
 .header {
     @include mixins.color(colors.$white, colors.$identity-primary);
+    @include mixins.flex(row, flex-start, center);
+    padding: spacing.$normal;
+    gap: spacing.$normal;
+
+    &-logo {
+        max-width: 1.5rem;
+        max-height: 1.5rem;
+    }
+
+    &-title {
+        font-size: fontSize.$veryLarge;
+        font-weight: fontWeight.$bold;
+        line-height: lineHeight.$large;
+    }
 }

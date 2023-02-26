@@ -1,1 +1,1 @@
-.header{color:#fff;background:#dc0a2d}/*# sourceMappingURL=styles.css.map */
+.header{color:#fff;background:#dc0a2d;display:flex;flex-direction:row;justify-content:flex-start;align-items:center;padding:1rem;gap:1rem}.header-logo{max-width:1.5rem;max-height:1.5rem}.header-title{font-size:1.5rem;font-weight:700;line-height:2rem}/*# sourceMappingURL=styles.css.map */
