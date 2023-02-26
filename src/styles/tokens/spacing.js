@@ -1,7 +1,0 @@
-export default {
-    verySmall: '0.25rem', //4px
-    small: '0.5rem', //8px
-    medium: '0.75rem', //12px
-    normal: '1rem', //16px
-    large: '1.5rem' //24px
-}

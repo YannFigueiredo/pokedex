@@ -1,0 +1,6 @@
+@use "../../styles/mixins";
+@use "../../styles/tokens/colors";
+
+.header {
+    @include mixins.color(colors.$white, colors.$identity-primary);
+}
