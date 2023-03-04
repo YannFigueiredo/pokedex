@@ -1,0 +1,94 @@
+@use "../../styles/mixins";
+@use "../../styles/tokens/colors";
+@use "../../styles/tokens/fontSize";
+@use "../../styles/tokens/fontWeight";
+@use "../../styles/tokens/lineHeight";
+
+
+.type {
+    @include mixins.flex(row, center, center);
+    background: colors.$medium;
+    padding: 2px 8px;
+    border-radius: 10px;
+    max-width: fit-content;
+
+    &-text {
+        color: colors.$white;
+        font-size: fontSize.$small;
+        font-weight: fontWeight.$bold;
+        line-height: lineHeight.$medium;
+        text-transform: capitalize;
+    }
+}
+
+.bug {
+    background: colors.$bug-type;
+}
+
+.dark {
+    background: colors.$dark-type;
+}
+
+.dragon {
+    background: colors.$dragon-type;
+}
+
+.electric {
+    background: colors.$electric-type;
+}
+
+.fairy {
+    background: colors.$fairy-type;
+}
+
+.fighting {
+    background: colors.$fighting-type;
+}
+
+.fire {
+    background: colors.$fire-type;
+}
+
+.flying {
+    background: colors.$flying-type;
+}
+
+.ghost {
+    background: colors.$ghost-type;
+}
+
+.normal {
+    background: colors.$normal-type;
+}
+
+.grass {
+    background: colors.$grass-type;
+}
+
+.ground {
+    background: colors.$ground-type;
+}
+
+.ice {
+    background: colors.$ice-type;
+}
+
+.poison {
+    background: colors.$poison-type;
+}
+
+.psychic {
+    background: colors.$psychic-type;
+}
+
+.rock {
+    background: colors.$rock-type;
+}
+
+.steel {
+    background: colors.$steel-type;
+}
+
+.water {
+    background: colors.$water-type;
+}

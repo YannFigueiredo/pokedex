@@ -63,11 +63,13 @@ export default function PokemonType({ pokemonType }) {
             default:
                 break;
         }
-    }, []);
+    }, [pokemonType]);
 
     return (
-        <div className="type">
-            <span className={`type-text ${colorClass}`}></span>
+        <div className={`type ${colorClass}`}>
+            <span className="type-text">
+                {pokemonType}
+            </span>
         </div>
     );
 }
